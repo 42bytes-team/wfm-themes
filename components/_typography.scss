@@ -1,0 +1,22 @@
+@import '../functions';
+
+@mixin typography(){
+  //
+  // Content colors
+  //
+  --color_text: #{$color_text};
+  --color_rgb_text: #{hexToRGBString($color_text)};
+  --color_h1: #{$color_h1};
+  --color_h2: #{$color_h2};
+  --color_h3: #{$color_h3};
+  --color_h4: #{$color_h4};
+
+  //
+  // Footer and slideout menu colors
+  //
+  --color_dark_text: #{$color_dark_text};
+  --color_dark_h1: #{$color_dark_h1};
+  --color_dark_h2: #{$color_dark_h2};
+  --color_dark_h3: #{$color_dark_h3};
+  --color_dark_disclaimer: #{$color_dark_disclaimer};
+}

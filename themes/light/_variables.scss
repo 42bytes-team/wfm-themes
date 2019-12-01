@@ -1,0 +1,133 @@
+
+$color_background--light: white;
+$color_border--light: #eff3f3;
+$color_background: #f5f5f5;
+$color_border: #e1e6e6;
+$color_background--darker: #dedfdf;
+$color_border--darker: #c6cbcc;
+
+$color_input_background: white;
+$color_input_background--selected: #dedede;
+$color_input_background--disabled: #e9ecef;
+$color_input_inner_shadow: black;
+$color_input_text: #495057;
+$color_input_text--highlight: #19a187;
+$color_input_text--disabled: #495057;
+$color_input_border: #c6cbcc;
+$color_input_border--disabled: #c6cbcc;
+$color_input_group_background: #f8f8f8;
+
+$color_text: #617277;
+$color_h1: desaturate(#34606c, 0%);
+$color_h2: desaturate(#34606c, 10%);
+$color_h3: desaturate(#34606c, 20%);
+$color_h4: desaturate(#34606c, 20%);
+$color_placeholder: #c1cacd;
+
+$color_dark_background--light: #11262b;
+$color_dark_border--light: #283235;
+$color_dark_background: #171e21;
+$color_dark_border: #283235;
+$color_dark_background--darker: #071013;
+$color_dark_border--darker: #171e21; // #283235;
+
+$color_dark_text: #aab3b6;
+$color_dark_h1: lighten($color_dark_text, 30%);
+$color_dark_h2: lighten($color_dark_text, 20%);
+$color_dark_h3: lighten($color_dark_text, 10%);
+$color_dark_disclaimer: #333d40;
+
+// Links and buttons
+$color_link: #265663;
+$color_link--hover: #399ea5;
+$color_link--active: #19a187; //#39a58b; //#39a57e;
+
+$color_link_red: #632626;
+$color_link_red--hover: #a52f31;
+$color_link_red--active: #a53162;
+
+$color_link_dimmed: #408698; //#7aa7a5;
+$color_link_dimmed--hover: #a3dddb;
+$color_link_dimmed--active: #acb8dd;
+
+$color_link_dimmed_red: lighten($color_link_red, 20%);
+$color_link_dimmed_red--hover: lighten($color_link_red--hover, 20%);
+$color_link_dimmed_red--active: $color_link_red--active;
+
+$color_button_text: #f5f5f5;
+$color_button_disabled_opacity: .65;
+
+// Place order button and counters (new messages)
+$color_highlight: #b53600;
+$color_highlight-text: #f5f5f5;
+
+// Place order button
+$color_place_order: #b53600;
+$color_place_order_text: #f5f5f5;
+$color_place_order--hover: #e64400;
+$color_place_order--active: #ff8f00;
+
+// Create auction button.
+$color_create_auction: #8960db;
+$color_create_auction_text: #f5f5f5;
+$color_create_auction--hover: #b08cff;
+$color_create_auction--active: #9d92ff;
+
+// Attribute and name selectors
+$color_attribute_text: white;
+$color_attribute_background_first: #19a187;
+$color_attribute_background_second: desaturate(#19a187, 30%);
+$color_attribute_background_third: desaturate(#19a187, 60%);
+$color_attribute_background_negative: #98392d;
+
+// Alerts
+$color_success_text: #4d8200;
+$color_success_background: #d5dec7;
+$color_success_border: #4d8200;
+
+$color_warning_text: #856404;
+$color_warning_background: #fff3cd;
+$color_warning_border: #856404;
+
+$color_danger_text: #8a2800;
+$color_danger_background: #efd4c3;
+$color_danger_border: #8a2800;
+
+$color_info_text: #0c5460;
+$color_info_background: #d1ecf1;
+$color_info_border: #0c5460;
+
+// Tooltips
+$color_tooltip_background: #1B2432;  // gunmetal (dark)
+$color_tooltip_border: black;
+$color_tooltip_text: #aab3b6;
+
+// Misc
+$color_sell: #ab3e85;
+$color_buy: #1c8a62;
+$color_price: #404040;
+
+$color_status-online: darkgreen;
+$color_status-ingame: mediumpurple;
+$color_status-offline: darkred;
+$color_status-invis: darkgrey;
+
+// Used for order and bid rows, own order//bid of current user
+$color_own--odd: #f6f0ff;
+$color_own--even: #e7e1f0;
+
+// Auctions
+$color_auction_participant: #1c8a62;
+$color_auction_sell: #909090;
+$color_auction_own: mediumpurple;
+$color_auction_private: mediumpurple;
+$color_auction_archiving: gray;
+
+// Markdown
+$color_md_code_background: #f8f8f8;
+$color_md_code_text: #172B4D;
+$color_dark_md_code_background: black;
+$color_dark_md_code_text: #39a57e;
+
+// Modal window
+$color_modal_backdrop: 26, 37, 40;

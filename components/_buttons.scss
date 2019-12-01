@@ -1,0 +1,21 @@
+@import '../functions';
+
+@mixin buttons(){
+  // Core button colors are inherited from link colors.
+
+  // Common
+  --color_button_text: #{$color_button_text};
+  --color_button_disabled_opacity: #{$color_button_disabled_opacity};
+
+  // Place order button.
+  --color_place_order: #{$color_highlight};
+  --color_place_order--hover: #{$color_place_order--hover};
+  --color_place_order--active: #{$color_place_order--active};
+  --color_place_order_text: #{$color_highlight-text};
+
+  // Create auction button.
+  --color_create_auction: #{$color_create_auction};
+  --color_create_auction_text: #{$color_create_auction_text};
+  --color_create_auction--hover: #{$color_create_auction--hover};
+  --color_create_auction--active: #{$color_create_auction--active};
+}

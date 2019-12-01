@@ -1,0 +1,38 @@
+@import '../functions';
+
+@mixin links(){
+  //
+  // Links and buttons colors.
+  //
+  --color_link: #{$color_link};
+  --color_link--hover: #{$color_link--hover};
+  --color_link--active: #{$color_link--active};
+
+  --color_rgb_link: #{hexToRGBString($color_link)};
+  --color_rgb_link--hover: #{hexToRGBString($color_link--hover)};
+  --color_rgb_link--active: #{hexToRGBString($color_link--active)};
+
+  --color_link_red: #{$color_link_red};
+  --color_link_red--hover: #{$color_link_red--hover};
+  --color_link_red--active: #{$color_link_red--active};
+
+  --color_rgb_link_red: #{hexToRGBString($color_link_red)};
+  --color_rgb_link_red--hover: #{hexToRGBString($color_link_red--hover)};
+  --color_rgb_link_red--active: #{hexToRGBString($color_link_red--active)};
+
+  --color_link_dimmed: #{$color_link_dimmed};
+  --color_link_dimmed--hover: #{$color_link_dimmed--hover};
+  --color_link_dimmed--active: #{$color_link_dimmed--active};
+
+  --color_rgb_link_dimmed: #{hexToRGBString($color_link_dimmed)};
+  --color_rgb_link_dimmed--hover: #{hexToRGBString($color_link_dimmed--hover)};
+  --color_rgb_link_dimmed--active: #{hexToRGBString($color_link_dimmed--active)};
+
+  --color_link_dimmed_red: #{$color_link_dimmed_red};
+  --color_link_dimmed_red--hover: #{$color_link_dimmed_red--hover};
+  --color_link_dimmed_red--active: #{$color_link_dimmed_red--active};
+
+  --color_rgb_link_dimmed_red: #{hexToRGBString($color_link_dimmed_red)};
+  --color_rgb_link_dimmed_red--hover: #{hexToRGBString($color_link_dimmed_red--hover)};
+  --color_rgb_link_dimmed_red--active: #{hexToRGBString($color_link_dimmed_red--active)};
+}

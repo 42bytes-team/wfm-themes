@@ -1,0 +1,34 @@
+@import '../functions';
+
+@mixin backgrounds(){
+  //
+  // Content backgrounds
+  //
+  --color_background--light: #{$color_background--light};
+  --color_border--light: #{$color_border--light};
+  --color_background: #{$color_background};
+  --color_border: #{$color_border};
+  --color_background--darker: #{$color_background--darker};
+  --color_border--darker: #{$color_border--darker};
+
+  --color_rgb_background--light: #{hexToRGBString($color_background--light)};
+  --color_rgb_background: #{hexToRGBString($color_background)};
+  --color_rgb_background--darker: #{hexToRGBString($color_background--darker)};
+
+  //
+  // Footer and slideout menu backgrounds
+  //
+  --color_dark_background--light: #{$color_dark_background--light};
+  --color_dark_border--ligth: #{$color_dark_border--light};
+  --color_dark_background: #{$color_dark_background};
+  --color_dark_border: #{$color_dark_border};
+  --color_dark_background--darker: #{$color_dark_background--darker};
+  --color_dark_border--darker: #{$color_dark_border--darker};
+
+  --color_rgb_dark_background--light: #{hexToRGBString($color_dark_background--light)};
+  --color_rgb_dark_border--ligth: #{hexToRGBString($color_dark_border--light)};
+  --color_rgb_dark_background: #{hexToRGBString($color_dark_background)};
+  --color_rgb_dark_border: #{hexToRGBString($color_dark_border)};
+  --color_rgb_dark_background--darker: #{hexToRGBString($color_dark_background--darker)};
+  --color_rgb_dark_border--darker: #{hexToRGBString($color_dark_border--darker)};
+}

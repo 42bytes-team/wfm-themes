@@ -1,0 +1,21 @@
+@import '../functions';
+
+@mixin markdown(){
+  //
+  // Markdown
+  //
+
+  //
+  // variables for light backgrounds (chat, profile, reviews)
+  //
+  --color_md_code_background: #{$color_md_code_background};
+  --color_md_code_text: #{$color_md_code_text};
+  --color_rgb_md_code_background: #{($color_md_code_background)};
+
+  //
+  // variables for dark backgrounds (auctions)
+  //
+  --color_dark_md_code_background: #{$color_dark_md_code_background};
+  --color_dark_md_code_text: #{$color_dark_md_code_text};
+  --color_rgb_dark_md_code_background: #{hexToRGBString($color_dark_md_code_background)};
+}

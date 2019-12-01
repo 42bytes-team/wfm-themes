@@ -1,0 +1,35 @@
+@import '../functions';
+
+@mixin alerts(){
+  --color_success_text: #{$color_success_text};
+  --color_success_background: #{$color_success_background};
+  --color_success_border: #{$color_success_border};
+
+  --color_rgb_success_text: #{hexToRGBString($color_success_text)};
+  --color_rgb_success_background: #{hexToRGBString($color_success_background)};
+  --color_rgb_success_border: #{hexToRGBString($color_success_border)};
+
+  --color_warning_text: #{$color_warning_text};
+  --color_warning_background: #{$color_warning_background};
+  --color_warning_border: #{$color_warning_border};
+
+  --color_rgb_warning_text: #{hexToRGBString($color_warning_text)};
+  --color_rgb_warning_background: #{hexToRGBString($color_warning_background)};
+  --color_rgb_warning_border: #{hexToRGBString($color_warning_border)};
+
+  --color_danger_text: #{$color_danger_text};
+  --color_danger_background: #{$color_danger_background};
+  --color_danger_border: #{$color_danger_border};
+
+  --color_rgb_danger_text: #{hexToRGBString($color_danger_text)};
+  --color_rgb_danger_background: #{hexToRGBString($color_danger_background)};
+  --color_rgb_danger_border: #{hexToRGBString($color_danger_border)};
+
+  --color_info_text: #{$color_info_text};
+  --color_info_background: #{$color_info_background};
+  --color_info_border: #{$color_info_border};
+
+  --color_rgb_info_text: #{hexToRGBString($color_info_text)};
+  --color_rgb_info_background: #{hexToRGBString($color_info_background)};
+  --color_rgb_info_border: #{hexToRGBString($color_info_border)};
+}

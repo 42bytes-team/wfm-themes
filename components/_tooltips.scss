@@ -1,0 +1,11 @@
+@import '../functions';
+
+@mixin tooltips(){
+  //
+  // (?) - signs with tooltips on hover.
+  //
+  --color_tooltip_background: #{$color_tooltip_background};
+  --color_tooltip_border: #{$color_tooltip_border};
+  --color_tooltip_text: #{$color_tooltip_text};
+  --color_rgb_tooltip_background: #{hexToRGBString($color_tooltip_background)};
+}

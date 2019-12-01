@@ -1,0 +1,37 @@
+@import '../functions';
+
+@mixin misc(){
+  //
+  // Misc
+  //
+  --color_sell: #{$color_sell};
+  --color_buy: #{$color_buy};
+  --color_price: #{$color_price};
+
+  --color_rgb_sell: #{hexToRGBString($color_sell)};
+  --color_rgb_buy: #{hexToRGBString($color_buy)};
+  --color_rgb_price: #{hexToRGBString($color_price)};
+
+  --color_status-online: #{$color_status-online};
+  --color_status-ingame: #{$color_status-ingame};
+  --color_status-offline: #{$color_status-offline};
+  --color_status-invis: #{$color_status-invis};
+
+  //
+  // Counters (new messages)
+  //
+  --color_highlight: #{$color_highlight};
+  --color_highlight_text: #{$color_highlight-text};
+
+  //
+  // Used for orders\\bids\\auctions in form of rows, own order//bid of current user
+  //
+  --color_own--even: #{$color_own--even};
+  --color_own--odd: #{$color_own--odd};
+
+
+  //
+  // Modal backdrop
+  //
+  --color_modal_backdrop: #{$color_modal_backdrop}
+}
