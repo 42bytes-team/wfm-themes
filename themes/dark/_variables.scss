@@ -19,8 +19,8 @@ $color_input_group_background: #121212;
 $color_text: #919596; // #8a9193;
 $color_h1: lighten(#919596, 20%);
 $color_h2: lighten(#919596, 20%);
-$color_h3: lighten(#919596, 10%);
-$color_h4: lighten(#919596, 10%);
+$color_h3: lighten(#919596, 20%);
+$color_h4: lighten(#919596, 20%);
 $color_placeholder: #333333; // #333333;
 
 $color_dark_background--light: #11262b;
@@ -54,7 +54,7 @@ $color_link_dimmed_red--hover: lighten($color_link_red--hover, 20%);
 $color_link_dimmed_red--active: $color_link_red--active;
 
 $color_button_text: #161e21;
-$color_button_disabled_opacity: .35;
+$color_button_disabled_opacity: 0.35;
 
 // Place order button and counters (new messages)
 $color_highlight: #b53600;
@@ -97,7 +97,7 @@ $color_info_background: #132f38;
 $color_info_border: #17b7d2;
 
 // Tooltips
-$color_tooltip_background: #1B2432;  // gunmetal (dark)
+$color_tooltip_background: #1b2432; // gunmetal (dark)
 $color_tooltip_border: black;
 $color_tooltip_text: #aab3b6;
 

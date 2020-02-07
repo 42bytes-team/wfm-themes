@@ -1,6 +1,6 @@
 @import '../functions';
 
-@mixin forms(){
+@mixin forms() {
   //
   // Input fields and groups
   //
@@ -33,5 +33,4 @@
 
   --color_dropdown_group-name: #{$color_input_text};
   --color_dropdown_group-border: #{$color_input_text};
-
 }

@@ -1,6 +1,6 @@
 @import '../functions';
 
-@mixin alerts(){
+@mixin alerts() {
   --color_success_text: #{$color_success_text};
   --color_success_background: #{$color_success_background};
   --color_success_border: #{$color_success_border};

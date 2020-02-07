@@ -1,16 +1,16 @@
-@import "functions";
-@import "components/alerts";
-@import "components/auctions";
-@import "components/backgrounds";
-@import "components/buttons";
-@import "components/forms";
-@import "components/links";
-@import "components/markdown";
-@import "components/misc";
-@import "components/tooltips";
-@import "components/typography";
+@import 'functions';
+@import 'components/alerts';
+@import 'components/auctions';
+@import 'components/backgrounds';
+@import 'components/buttons';
+@import 'components/forms';
+@import 'components/links';
+@import 'components/markdown';
+@import 'components/misc';
+@import 'components/tooltips';
+@import 'components/typography';
 
-@mixin makeTheme(){
+@mixin makeTheme() {
   @include alerts();
   @include auctions();
   @include backgrounds();

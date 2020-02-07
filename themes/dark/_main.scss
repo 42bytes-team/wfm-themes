@@ -1,5 +1,5 @@
-@import "variables";
-@import "../../common";
+@import 'variables';
+@import '../../common';
 
 .theme--dark {
   @include makeTheme();

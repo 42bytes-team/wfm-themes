@@ -1,6 +1,6 @@
 @import '../functions';
 
-@mixin misc(){
+@mixin misc() {
   //
   // Misc
   //
@@ -29,9 +29,8 @@
   --color_own--even: #{$color_own--even};
   --color_own--odd: #{$color_own--odd};
 
-
   //
   // Modal backdrop
   //
-  --color_modal_backdrop: #{$color_modal_backdrop}
+  --color_modal_backdrop: #{$color_modal_backdrop};
 }

@@ -1,6 +1,6 @@
 @import '../functions';
 
-@mixin auctions(){
+@mixin auctions() {
   --color_auction_participant: #{$color_auction_participant};
   --color_auction_sell: #{$color_auction_sell};
   --color_auction_own: #{$color_auction_own};
