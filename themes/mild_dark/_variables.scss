@@ -1,0 +1,119 @@
+$color_background--light: #1f2024; 
+$color_border--light: #aeb6b9;
+$color_background: #27292d;
+$color_border: #7f97a2;
+$color_background--darker: #222428;
+$color_border--darker: #3d879c;
+
+$color_input_background: #242626;
+$color_input_background--selected: #2b5d6c40;
+$color_input_background--disabled: #e9ecef;
+$color_input_inner_shadow: black;
+$color_input_text: #aeb6b9;
+$color_input_text--highlight: #19a187;
+$color_input_text--disabled: #495057;
+$color_input_border: #3d879c;
+$color_input_border--disabled: #c6cbcc;
+$color_input_group_background: #252626;
+
+$color_text: #c6cbcc;
+$color_h1: #39a57e;
+$color_h2: #5ba58a;
+$color_h3: #5ba58a;
+$color_h4: #5ba58a;
+$color_placeholder: #c1cacd;
+
+$color_dark_border--ligth: #283235;
+$color_dark_background: #1f2024;
+$color_dark_border: #283235;
+$color_dark_background--darker: #1a1b1f;
+$color_dark_border--darker: #171e21;
+
+$color_dark_text: #aab3b6;
+$color_dark_h1: lighten($color_dark_text, 30%);
+$color_dark_h2: lighten($color_dark_text, 20%);
+$color_dark_h3: lighten($color_dark_text, 10%);
+$color_dark_disclaimer: #19a188;
+
+$color_link: #3c879c;
+$color_link--hover: #399ea5;
+$color_link--active: #19a187;
+
+$color_link_red: #bd3833;
+$color_link_red--hover: #a52f31;
+$color_link_red--active: #a53162;
+
+$color_link_dimmed: #408698;
+$color_link_dimmed--hover: #a3dddb;
+$color_link_dimmed--active: #acb8dd;
+
+$color_link_dimmed_red: lighten($color_link_red, 20%);
+$color_link_dimmed_red--hover: lighten($color_link_red--hover, 20%);
+$color_link_dimmed_red--active: $color_link_red--active;
+
+$color_button_text: #f5f5f5;
+$color_button_disabled_opacity: .65;
+
+$color_highlight: #b53600;
+$color_highlight_text: #f5f5f5;
+
+$color_place_order: #8a340f;
+	$color_place_order_text: #c6cbcc;
+$color_place_order--hover: #e64400;
+$color_place_order--active: #ff8f00;
+
+$color_create_auction: #8960db;
+$color_create_auction_text: #f5f5f5;
+$color_create_auction--hover: #b08cff;
+$color_create_auction--active: #9d92ff;
+
+$color_attribute_text: #fff;
+$color_attribute_background_first: #19a187;
+$color_attribute_background_second: #358576;
+$color_attribute_background_third: #516965;
+$color_attribute_background_negative: #98392d;
+
+$color_success_text: #4d8200;
+$color_success_background: #d5dec7;
+$color_success_border: #4d8200;
+
+$color_warning_text: #856404;
+$color_warning_background: #fff3cd;
+$color_warning_border: #856404;
+
+$color_danger_text: #8a2800;
+$color_danger_background: #efd4c3;
+$color_danger_border: #8a2800;
+
+$color_info_text: #0c5460;
+$color_info_background: #d1ecf1;
+$color_info_border: #0c5460;
+
+$color_tooltip_background: #1b2432;
+$color_tooltip_border: #000;
+$color_tooltip_text: #aab3b6;
+
+$color_sell: #ab3e85;
+$color_buy: #1c8a62;
+$color_price: #75a5b7;
+
+$color_status-online: #006400;
+$color_status-ingame: #9370db;
+$color_status-offline: #ff3737;
+$color_status-invis: #a9a9a9;
+
+$color_own--even: #e7e1f0;
+$color_own--odd: #f6f0ff;
+
+$color_auction_participant: #1c8a62;
+$color_auction_sell: #909090;
+$color_auction_own: #9370db;
+$color_auction_private: #9370db;
+$color_auction_archiving: grey;
+
+$color_md_code_background: #f8f8f8;
+$color_md_code_text: #172b4d;
+$color_dark_md_code_background: #000;
+$color_dark_md_code_text: #39a57e;
+
+$color_modal_backdrop: 26,37,40;
