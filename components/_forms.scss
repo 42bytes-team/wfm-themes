@@ -25,12 +25,10 @@
   --color_attribute_background_second: #{$color_attribute_background_second};
   --color_attribute_background_third: #{$color_attribute_background_third};
   --color_attribute_background_negative: #{$color_attribute_background_negative};
-
   --color_rgb_attribute_background_first: #{hexToRGBString($color_attribute_background_first)};
   --color_rgb_attribute_background_second: #{hexToRGBString($color_attribute_background_second)};
   --color_rgb_attribute_background_third: #{hexToRGBString($color_attribute_background_third)};
   --color_rgb_attribute_background_negative: #{hexToRGBString($color_attribute_background_negative)};
-
   --color_dropdown_group-name: #{$color_input_text};
   --color_dropdown_group-border: #{$color_input_text};
 }

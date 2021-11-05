@@ -38,6 +38,6 @@ do
       continue
     fi
     echo "Compiling theme: $THEME_NAME"
-    scss --sourcemap=none -C -q "./$THEME_FOLDER/_main.scss" compiled/"$THEME_NAME.css"
+    sass --no-source-map "./$THEME_FOLDER/_main.scss" compiled/"$THEME_NAME.css"
   fi
 done

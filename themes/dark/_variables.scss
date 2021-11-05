@@ -21,7 +21,7 @@ $color_h1: lighten(#919596, 20%);
 $color_h2: lighten(#919596, 20%);
 $color_h3: lighten(#919596, 20%);
 $color_h4: lighten(#919596, 20%);
-$color_placeholder: #333333; // #333333;
+$color_placeholder: #333; // #333333;
 
 $color_dark_background--light: #11262b;
 $color_dark_border--light: #283235;
@@ -123,7 +123,7 @@ $color_auction_private: mediumpurple;
 $color_auction_archiving: gray;
 
 // Markdown
-$color_md_code_background: black;
+$color_md_code_background: #101619;
 $color_md_code_text: #39a57e;
 $color_dark_md_code_background: black;
 $color_dark_md_code_text: #39a57e;

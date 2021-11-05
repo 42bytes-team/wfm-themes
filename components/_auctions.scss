@@ -6,7 +6,6 @@
   --color_auction_own: #{$color_auction_own};
   --color_auction_private: #{$color_auction_private};
   --color_auction_archiving: #{$color_auction_archiving};
-
   --color_rgb_auction_archiving: #{hexToRGBString($color_auction_archiving)};
   --color_rgb_auction_private: #{hexToRGBString($color_auction_private)};
 }

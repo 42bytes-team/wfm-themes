@@ -10,7 +10,6 @@
   --color_border: #{$color_border};
   --color_background--darker: #{$color_background--darker};
   --color_border--darker: #{$color_border--darker};
-
   --color_rgb_background--light: #{hexToRGBString($color_background--light)};
   --color_rgb_background: #{hexToRGBString($color_background)};
   --color_rgb_background--darker: #{hexToRGBString($color_background--darker)};
@@ -24,7 +23,6 @@
   --color_dark_border: #{$color_dark_border};
   --color_dark_background--darker: #{$color_dark_background--darker};
   --color_dark_border--darker: #{$color_dark_border--darker};
-
   --color_rgb_dark_background--light: #{hexToRGBString($color_dark_background--light)};
   --color_rgb_dark_border--ligth: #{hexToRGBString($color_dark_border--light)};
   --color_rgb_dark_background: #{hexToRGBString($color_dark_background)};

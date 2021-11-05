@@ -7,11 +7,9 @@
   --color_sell: #{$color_sell};
   --color_buy: #{$color_buy};
   --color_price: #{$color_price};
-
   --color_rgb_sell: #{hexToRGBString($color_sell)};
   --color_rgb_buy: #{hexToRGBString($color_buy)};
   --color_rgb_price: #{hexToRGBString($color_price)};
-
   --color_status-online: #{$color_status-online};
   --color_status-ingame: #{$color_status-ingame};
   --color_status-offline: #{$color_status-offline};
@@ -28,6 +26,8 @@
   //
   --color_own--even: #{$color_own--even};
   --color_own--odd: #{$color_own--odd};
+  --color_rgb_own--even: #{hexToRGBString($color_own--even)};
+  --color_rgb_own--odd: #{hexToRGBString($color_own--odd)};
 
   //
   // Modal backdrop

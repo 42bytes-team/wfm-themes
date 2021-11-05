@@ -5,6 +5,8 @@
   // Content colors
   //
   --color_text: #{$color_text};
+  // --color_text_svg: #{'%23' + str-slice(#{$color_text}, 2)};
+  --color_text_svg: red;
   --color_rgb_text: #{hexToRGBString($color_text)};
   --color_h1: #{$color_h1};
   --color_h2: #{$color_h2};
